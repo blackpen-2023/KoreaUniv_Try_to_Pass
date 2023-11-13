@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Title" content="페이지타이틀" />
+    <meta name="description" content="페이지설명" />
+    <meta name="author" content="제작자" />
+    <meta name="keyword" content="키워드1, 키워드2, 키워드3" />
+    <meta name="Robots" content="Index" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <title>제목입력</title>
+    <!-- Meta OG -->
+    <meta property="og:url" content="공유링크" />
+    <meta property="og:title" content="공유제목" />
+    <meta property="og:image" content="이미지경로" />
+    <meta property="og:description" content="공유설명" />
+    <!-- Link -->
+    <link rel="stylesheet" href="./style-1.css" />
+    <script src="/script.js"></script>
+  </head>
+  <body>
+    <form>
+      <div class="wrap">
+        <h1 class="inquiry">
+          <img src="./logo_new.png" alt="고려대학교 인재발굴처 로고" />
+        </h1>
+        <section id="MM" class="inquiry">
+          <h2>고려대학교 합격해보기 !</h2>
+          <table id="MM">
+            <tr>
+              <th>수험번호</th>
+              <td><input id="numb" />&nbsp;&nbsp;수험번호 입력</td>
+            </tr>
+            <tr>
+              <th>성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;명</th>
+              <td><input id="name" />&nbsp;&nbsp;이름 입력</td>
+            </tr>
+            <tr>
+              <th>전&nbsp;&nbsp;형&nbsp;&nbsp;명</th>
+              <td><input id="root" />&nbsp;&nbsp;전형 입력</td>
+            </tr>
+            <tr>
+              <th>모집단위</th>
+              <td><input id="cls" />&nbsp;&nbsp;학과 입력</td>
+            </tr>
+            <tr>
+              <th>생년월일</th>
+              <td>
+                <input style="width: 50px" id="yr" /> 년
+                <input style="width: 20px" id="mt" /> 월
+                <input style="width: 20px" id="dy" /> 일
+              </td>
+            </tr>
+          </table>
+          <div id="ac">
+            <div id="B">단순 재미를 위해 제작된 사이트입니다.</div>
+            <div id="M">사용 후 생기는 불이익은 책임지지 않습니다.</div>
+            <br />
+            <div id="B">수능 파이팅!</div>
+            <br /><br />
+            <a onclick="getData();"
+              ><img src="./btn_search.gif" alt="검색"
+            /></a>
+            <!--
+            <a href="javascript:document.forms[0].reset()"
+              ><img src="./btn_reset.gif" alt="초기화"
+            /></a>-->
+          </div>
+
+          <p style="margin-bottom: 10px">
+            유의사항은 인재발굴처 홈페이지에서 공지합니다.
+          </p>
+          <!-- <a href="http://oku.korea.ac.kr" target="_new" class="homepage"><img src="./images/btn_home.gif" alt="입학처 홈페이지 바로가기" /></a>-->
+          <a
+            style="margin-bottom: 8px"
+            href="https://oku.korea.ac.kr"
+            target="_new"
+            class="homepage"
+            ><img src="./btn_home_new.gif" alt="홈페이지 바로가기"
+          /></a>
+        </section>
+      </div>
+    </form>
+    <div style="text-align: center">BAE GYUMIN - Edit</div>
+  </body>
+</html>
