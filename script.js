@@ -18,30 +18,5 @@ function getData() {
 }
 
 function setAll() {
-  document.querySelector("#alllll").innerHTML = `<table id="MM">
-    <tr>
-      <th>수험번호</th>
-      <td id="numb">6746537</td>
-    </tr>
-    <tr>
-      <th>성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;명</th>
-      <td>dwdw</td>
-    </tr>
-    <tr>
-      <th>전&nbsp;&nbsp;형&nbsp;&nbsp;명</th>
-      <td>학생부종합</td>
-    </tr>
-    <tr>
-      <th>모집단위</th>
-      <td>경영학과</td>
-    </tr>
-    <tr>
-      <th>생년월일</th>
-      <td>2005년 4월 4일</td>
-    </tr>
-    <tr>
-      <th>합격여부</th>
-      <td id="pass">합격</td>
-    </tr>
-  </table>`;
+  document.querySelector("#alllll").innerHTML = ``;
 }
